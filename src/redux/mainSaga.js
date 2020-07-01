@@ -27,7 +27,6 @@ CalendarView7405Saga,
 CalendarView7400Saga,
 EmailAuth7399Saga,
 EmailAuth7393Saga,
-CalendarView7392Saga,
 CalendarSaga,
 EmailAuthSaga,
     
