@@ -18,7 +18,13 @@ export class _Blank extends React.Component {
     title: "Blank".toUpperCase()
   }
 
-  state = { CheckBox_3: true, Radio_4: false, Toggle_5: true, Input_6: "test" }
+  state = {
+    CheckBox_3: true,
+    Radio_4: false,
+    Toggle_5: true,
+    Input_6: "test",
+    Toggle_4: true
+  }
 
   render = () => (
     <View
@@ -210,6 +216,99 @@ export class _Blank extends React.Component {
         }}
         value={this.state.Input_6}
         onChangeText={nextValue => this.setState({ Input_6: nextValue })}
+      />
+      <Button
+        style={{
+          width: 100,
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          verticalAlign: "baseline",
+          fontSize: 20,
+          color: "#000000",
+          backgroundColor: "#3366FF",
+          fontStyle: "normal",
+          fontWeight: "normal",
+          fontFamily: "System",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 0,
+          borderBottomWidth: 0,
+          borderRadius: 0
+        }}
+        onPress={() => alert("Pressed!")}
+      >
+        Press me!
+      </Button>
+      <Image
+        resizeMode="cover"
+        source={{
+          uri:
+            "https://d3nfddh2sbo9hk.cloudfront.net/media/project_component_resources/8_Ca7yQJP.jpg"
+        }}
+        style={{
+          width: 100,
+          height: 100,
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 0,
+          marginBottom: 0,
+          paddingLeft: 0,
+          paddingRight: 0,
+          paddingTop: 0,
+          paddingBottom: 0,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 0,
+          borderBottomWidth: 0,
+          borderRadius: 0,
+          fontFamily: "System"
+        }}
+      />
+      <Toggle
+        activeColor="#409EFF"
+        inactiveColor="#C0CCDA"
+        disabled={false}
+        text="switch ON/OFF"
+        style={{
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 0,
+          borderBottomWidth: 0,
+          borderRadius: 0,
+          fontFamily: "System"
+        }}
+        checked={this.state.Toggle_4}
+        onChange={nextChecked => this.setState({ Toggle_4: nextChecked })}
       />
     </View>
   )
