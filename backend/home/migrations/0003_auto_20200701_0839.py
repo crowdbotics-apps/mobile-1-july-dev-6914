@@ -6,28 +6,28 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0002_load_initial_data'),
+        ("home", "0002_load_initial_data"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='customtext',
-            name='hgfhgfgf',
+            model_name="customtext",
+            name="hgfhgfgf",
             field=models.BinaryField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='hgkjhgkj',
+            model_name="customtext",
+            name="hgkjhgkj",
             field=models.BooleanField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='jhkjh',
+            model_name="customtext",
+            name="jhkjh",
             field=models.URLField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='customtext',
-            name='zsfdawfa',
+            model_name="customtext",
+            name="zsfdawfa",
             field=models.DateField(blank=True, null=True),
         ),
     ]
