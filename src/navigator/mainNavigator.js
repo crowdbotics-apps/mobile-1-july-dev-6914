@@ -20,7 +20,6 @@ import EmailAuth7393Navigator from '../features/EmailAuth7393/navigator';
 import CalendarView7392Navigator from '../features/CalendarView7392/navigator';
 import BlankScreen47391Navigator from '../features/BlankScreen47391/navigator';
 import BlankScreen57390Navigator from '../features/BlankScreen57390/navigator';
-import BlankScreen57385Navigator from '../features/BlankScreen57385/navigator';
 import BlankScreen47384Navigator from '../features/BlankScreen47384/navigator';
 import MessengerNavigator from '../features/Messenger/navigator';
 import CalendarNavigator from '../features/Calendar/navigator';
@@ -50,7 +49,6 @@ EmailAuth7393: { screen: EmailAuth7393Navigator },
 CalendarView7392: { screen: CalendarView7392Navigator },
 BlankScreen47391: { screen: BlankScreen47391Navigator },
 BlankScreen57390: { screen: BlankScreen57390Navigator },
-BlankScreen57385: { screen: BlankScreen57385Navigator },
 BlankScreen47384: { screen: BlankScreen47384Navigator },
 Messenger: { screen: MessengerNavigator },
 Calendar: { screen: CalendarNavigator },
